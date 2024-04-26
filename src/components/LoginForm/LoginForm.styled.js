@@ -33,6 +33,8 @@ export const Btn = styled.button`
     rgb(1, 73, 180) 100%
   );
   cursor: pointer;
+  margin-top: 30px;
+  margin-left: 15px;
 `;
 
 export const FormGroup = styled.div`

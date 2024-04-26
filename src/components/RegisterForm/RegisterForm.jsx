@@ -52,11 +52,6 @@ const RegisterForm = ({ onSubmit }) => {
           onChange={handleChange}
           {...fields.password}
               />
-                {/* <TextField
-          value={hasło}
-          onChange={handleChange}
-          {...fields.hasło}
-              /> */}
               <div style={{
                  width: "400px",
                   color: "rgb(46, 101, 243)",
@@ -74,7 +69,6 @@ const RegisterForm = ({ onSubmit }) => {
                   <input style={{
                     width: "18px",
                       height: "18px",
-                      
                       marginLeft: "20px",
                 }} checked={keep_me_logged_in} name="keep_me_logged_in" onChange={handleChange} type="checkbox" />
                   <label style={{
